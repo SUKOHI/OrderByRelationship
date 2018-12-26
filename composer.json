@@ -16,15 +16,5 @@
             "Sukohi\\OrderByRelationship\\": "src/"
         }
     },
-    "minimum-stability": "stable",
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Sukohi\\OrderByRelationship\\OrderByRelationshipServiceProvider"
-            ],
-            "aliases": {
-                "OrderByRelationship": "Sukohi\\OrderByRelationship\\Facades\\OrderByRelationship"
-            }
-        }
-    }
+    "minimum-stability": "stable"
 }
