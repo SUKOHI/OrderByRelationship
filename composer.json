@@ -1,6 +1,6 @@
 {
     "name": "sukohi/order-by-relationship",
-    "description": "Your package description here.",
+    "description": "A Laravel package that allows you to sort DB data by relationship column.",
     "authors": [
         {
             "name": "Sukohi",
