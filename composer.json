@@ -1,0 +1,30 @@
+{
+    "name": "sukohi/order-by-relationship",
+    "description": "Your package description here.",
+    "authors": [
+        {
+            "name": "Sukohi",
+            "email": "capilano.sukohi@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sukohi\\OrderByRelationship\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sukohi\\OrderByRelationship\\OrderByRelationshipServiceProvider"
+            ],
+            "aliases": {
+                "OrderByRelationship": "Sukohi\\OrderByRelationship\\Facades\\OrderByRelationship"
+            }
+        }
+    }
+}
